@@ -23,7 +23,7 @@ except:os.system('pip install pyfiglet')
 #function login
 def login():
 	os.system('clear')
-	print(f'{logi}\n[   LOGIN FIRST GENKS   ]\n\n[1]. Log in with the access token\n[2]. Login with cookies\n[99]. Exit Tool :)\n')
+	print(f'{logi}\n[   LOGIN FIRST GENKS   ]\n\n[1]. Log in with the access token\n[2]. Login with cookies\n[99]. Exit Tool')
 	p=input('[?] Pilih yang mana : ')
 	if p in ('01','1'): #condition 1 login with token :)
 		print('\n[!] Please enter your access token [!]\n')
